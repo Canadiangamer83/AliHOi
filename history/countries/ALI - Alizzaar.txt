@@ -1,0 +1,107 @@
+﻿capital = 146
+
+#OOB = "ALB_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 20
+		}
+		
+		communism = {
+			popularity = 5
+		}
+		
+		neutrality = { 
+			popularity = 75
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 5
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = FLO
+		autonomous_state =
+		autonomy_intergrated_puppet
+	}
+	else = {
+		puppet = FLO
+	}
+}
+
+create_country_leader = {
+	name = "Alitsar"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Alinon.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		political_dancer
+	}
+}
+
+create_country_leader = {
+	name = "Ali-Dirty-Commie"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Alicom.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Ali, man of the people"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Alidem.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		great_war_hero
+	}
+}
+
+create_country_leader = {
+	name = "Lord Alizzaar"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Alifas.dds"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		emperor_showa
+	}
+}
+
+#create_field_marshal = {
+#	name = "Xhemal Aranitasi"
+#	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+#	traits = { }
+#	skill = 2
+#	attack_skill = 1
+#    defense_skill = 3
+#    planning_skill = 2
+#    logistics_skill = 1
+#}
+

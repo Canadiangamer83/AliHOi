@@ -1,0 +1,96 @@
+﻿capital = 44
+
+#OOB = "ALB_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 32
+		}
+
+		fascism = {
+			popularity = 5
+		}
+		
+		communism = {
+			popularity = 63
+		}
+		
+		neutrality = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 5
+
+
+create_country_leader = {
+	name = "Angela Merkel"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "angela_leader.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		political_dancer
+	}
+}
+
+create_country_leader = {
+	name = "Björn Höckr"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "bjorn_leader.dds"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Sexy Mao"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "sexy_mao.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Senor Hitler"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "senor_hitler.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		exiled	
+		cornered_fox
+	}
+}
+
+
+#create_field_marshal = {
+#	name = "Xhemal Aranitasi"
+#	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+#	traits = { }
+#	skill = 2
+#	attack_skill = 1
+#    defense_skill = 3
+#   planning_skill = 2
+#   logistics_skill = 1
+#}
+
