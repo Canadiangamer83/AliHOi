@@ -31,7 +31,7 @@ music = {
 }
 music = {
 	name = "general_war_2"
-	file = "general_war_theattack.ogg"
+	file = "hellsbells.ogg"
 	volume = 0.65
 }
 
