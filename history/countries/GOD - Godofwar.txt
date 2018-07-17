@@ -11,19 +11,19 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		democratic = { Alizzaarian Sand republic
 			popularity =50
 		}
 
-		fascism = {
+		fascism = { Hitlers Body Pillow
 			popularity = 10
 		}
 		
-		communism = {
+		communism = { Lenins Anime Doll
 			popularity = 10
 		}
 		
-		neutrality = { 
+		neutrality = { Nobody cares about me and im sad
 			popularity = 30
 		}
 	}
