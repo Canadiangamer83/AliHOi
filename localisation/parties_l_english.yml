@@ -518,3 +518,8 @@
  DRE_democratic_party:0 "Fine Gael"
  DRE_communism_party:0 "Communist Party of Ireland"
  DRE_neutrality_party:0 "Kingdom's Dogs"
+  ######################################
+ GOD_fascism_party:0 "Hitler is Gay Party"
+ GOD_democratic_party:0 "Stalin is Gay Party"
+ GOD_communism_party:0 "Roosevelt is Gay Party"
+ GOD_neutrality_party:0 "Yall are Gay Party"
