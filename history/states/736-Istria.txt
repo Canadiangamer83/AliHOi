@@ -5,8 +5,9 @@ state={
 	state_category = city
 
 	history={
-		owner = LEG
-		add_core_of = LEG
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = YUG
 		buildings = {
 			infrastructure = 2
 			11735 = {
