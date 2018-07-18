@@ -46,6 +46,13 @@ bookmarks = {
 			focuses = {
 
 			}
+			"DRE"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
 		}
 	}
 }
