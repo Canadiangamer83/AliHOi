@@ -1,0 +1,31 @@
+focus_tree = {
+	id = Dread_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = DRE
+		}
+	}
+	
+	focus = {
+		id = DRE_extra_tech_slot
+		icon = GFX_focus_research
+		text = extra_tech_slot
+		#prerequisite = { focus = ITA_industrial_effort_2 }
+		x = 1
+		y = 1
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 10
+		#ai_will_do = {
+			#factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	
