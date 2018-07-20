@@ -102,7 +102,7 @@ music = {
 
 music = {
 	name = "comintern_peace_1"
-	file = "motherrussia.ogg"
+	file = "ras.ogg"
 	volume = 0.65
 }
 
