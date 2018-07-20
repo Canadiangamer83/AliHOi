@@ -2,14 +2,14 @@
 # MAIN THEME
 music = {
 	name = "maintheme"
-	file = "civilization.ogg"
+	file = "hoi4mainthemeallies.ogg"
 	volume = 0.65
 }
 
 # General Peace:
 music = {
 	name = "general_peace_1"
-	file = "africa.ogg"
+	file = "general_peace_heartsofmen.ogg"
 	volume = 0.65
 }
 music = {
@@ -26,12 +26,12 @@ music = {
 # General war:
 music = {
 	name = "general_war_1"
-	file = "thelaststand.ogg"
+	file = "general_war_bringforththetanks.ogg"
 	volume = 0.65
 }
 music = {
 	name = "general_war_2"
-	file = "hellsbells.ogg"
+	file = "general_war_theattack.ogg"
 	volume = 0.65
 }
 
@@ -102,7 +102,7 @@ music = {
 
 music = {
 	name = "comintern_peace_1"
-	file = "ras.ogg"
+	file = "motherrussia.ogg"
 	volume = 0.65
 }
 
