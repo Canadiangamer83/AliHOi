@@ -27,12 +27,12 @@ set_politics = {
 			popularity = 0
 		}
 
-		Zzaarism= {
+		zzaarism= {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = Zzaarism
+	ruling_party = zzaarism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

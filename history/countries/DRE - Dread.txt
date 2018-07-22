@@ -27,7 +27,7 @@ set_politics = {
 			popularity = 5
 		}
 
-		Zzaarism= {
+		zzaarism= {
 			popularity = 0
 		}
 	}
