@@ -194,4 +194,42 @@ ideologies = {
 
 		ai_neutral = yes # 
 	}
+
+	Zzaarism = {
+	
+		types = {
+		
+			zarist  = {
+			}
+			
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+		}
+		
+		color = { 0 49 83 }
+		
+		
+		war_impact_on_world_tension = 1.0		#no major danger
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+		
+		modifiers = {
+			puppet_cost_factor = -1.0
+		}
+		
+		faction_modifiers = {
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+		ai_neutral = yes # 
+	}
 }
