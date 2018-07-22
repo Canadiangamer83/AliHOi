@@ -1,0 +1,574 @@
+focus_tree = {
+	id = Dread
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DRE
+		}
+	}
+	default = no
+	focus = {
+		id = Prepair_the_workers
+		icon = GFX_goal_generic_air_production
+		cost = 10.00
+		x = 4
+		y = 0
+			completion_reward = {
+					add_tech_bonus = {
+							name = GER_four_year_plan
+							bonus = 0.5
+							uses = 2
+							category = industry
+						}
+					custom_effect_tooltip = available_political_advisor
+					show_ideas_tooltip = hjalmar_schacht
+				}
+
+	}
+	focus = {
+		id = floating rocks
+		icon = GFX_goal_generic_navy_battleship
+		cost = 0.00
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = Reopen the roads
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = Prepair_the_workers
+		}
+		x = 1
+		y = 1
+			completion_reward = {
+					113 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = infrastructure
+											level = 1
+											instant_build = yes
+										}
+								}
+						}
+					119 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = infrastructure
+											level = 1
+											instant_build = yes
+										}
+								}
+						}
+					134 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = infrastructure
+											level = 1
+											instant_build = yes
+										}
+								}
+						}
+					135 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = infrastructure
+											level = 1
+											instant_build = yes
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = Expand the sweat shops
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = Reopen the roads
+		}
+		x = 1
+		y = 2
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = FRA_industrial_expansion_2IC
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							set_state_flag = FRA_industrial_expansion_1IC
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							set_state_flag = FRA_industrial_expansion_1IC
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+							set_state_flag = FRA_industrial_expansion_1IC
+						}
+				}
+
+	}
+	focus = {
+		id = Arm the children
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = Prepair_the_workers
+		}
+		x = 3
+		y = 1
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 1
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = FRA_military_factories_2MF
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							set_state_flag = FRA_military_factories_1MF
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							set_state_flag = FRA_military_factories_1MF
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							set_state_flag = FRA_military_factories_1MF
+						}
+				}
+
+	}
+	focus = {
+		id = More Power!!!!!
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = Arm the children
+		}
+		x = 3
+		y = 2
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 1
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = FRA_military_factories_2MF
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							set_state_flag = FRA_military_factories_1MF
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							set_state_flag = FRA_military_factories_1MF
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											region = 19
+											region = 20
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+							set_state_flag = FRA_military_factories_1MF
+						}
+				}
+
+	}
+	focus = {
+		id = They land?
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		prerequisite = {
+			focus = Prepair_the_workers
+		}
+		x = 5
+		y = 1
+			completion_reward = {
+					air_experience = 25
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = air_base
+											size > 1
+										}
+									OR = {
+											region = 1
+											region = 2
+										}
+								}
+							add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = air_rearmament_focus_2AirBase
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = air_base
+											size > 1
+										}
+									OR = {
+											region = 1
+											region = 2
+										}
+								}
+							add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = air_rearmament_focus_2AirBase
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = air_base
+											size > 1
+										}
+									OR = {
+											region = 1
+											region = 2
+											region = 3
+										}
+								}
+							add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = air_rearmament_focus_2AirBase
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = air_base
+											size > 1
+										}
+									OR = {
+											region = 1
+											region = 2
+											region = 3
+										}
+								}
+							add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = air_rearmament_focus_2AirBase
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = air_base
+											size > 1
+										}
+									OR = {
+											region = 1
+											region = 2
+											region = 3
+										}
+								}
+							add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = air_rearmament_focus_2AirBase
+						}
+					if = {
+							limit = {
+									NOT = {
+											any_owned_state = {
+													free_building_slots = {
+															building = air_base
+															size > 1
+														}
+													OR = {
+															region = 1
+															region = 2
+															region = 3
+														}
+												}
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											free_building_slots = {
+													building = air_base
+													size > 1
+												}
+										}
+									add_building_construction = {
+											type = air_base
+											level = 2
+											instant_build = yes
+										}
+									set_state_flag = air_rearmament_focus_2AirBase
+								}
+							random_owned_controlled_state = {
+									limit = {
+											free_building_slots = {
+													building = air_base
+													size > 1
+												}
+										}
+									add_building_construction = {
+											type = air_base
+											level = 2
+											instant_build = yes
+										}
+									set_state_flag = air_rearmament_focus_2AirBase
+								}
+							random_owned_controlled_state = {
+									limit = {
+											free_building_slots = {
+													building = air_base
+													size > 1
+												}
+										}
+									add_building_construction = {
+											type = air_base
+											level = 2
+											instant_build = yes
+										}
+									set_state_flag = air_rearmament_focus_2AirBase
+								}
+							random_owned_controlled_state = {
+									limit = {
+											free_building_slots = {
+													building = air_base
+													size > 1
+												}
+										}
+									add_building_construction = {
+											type = air_base
+											level = 2
+											instant_build = yes
+										}
+									set_state_flag = air_rearmament_focus_2AirBase
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = Books!
+		icon = GFX_focus_research
+		cost = 50.00
+		prerequisite = {
+			focus = Expand the sweat shops
+		}
+		prerequisite = {
+			focus = More Power!!!!!
+		}
+		x = 2
+		y = 3
+			completion_reward = {
+					add_research_slot = 1
+				}
+
+	}
+}
