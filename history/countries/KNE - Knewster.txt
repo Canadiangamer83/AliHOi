@@ -26,6 +26,10 @@ set_politics = {
 		neutrality = { 
 			popularity = 25
 		}
+
+		Zzaarism= {
+			popularity = 0
+		}
 	}
 	
 	ruling_party = democratic
