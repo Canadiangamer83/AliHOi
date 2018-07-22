@@ -38,6 +38,9 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = alizzaars_bitches
+add_to_faction = FLO
+
 set_convoys = 5
 
 if = {
