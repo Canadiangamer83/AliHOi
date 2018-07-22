@@ -195,7 +195,7 @@ ideologies = {
 		ai_neutral = yes # 
 	}
 
-	Zzaarism = {
+	zzaarism = {
 	
 		types = {
 		
@@ -221,7 +221,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			puppet_cost_factor = -1.0
+			puppet_cost_factor = -0.75
 		}
 		
 		faction_modifiers = {
