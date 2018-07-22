@@ -1386,9 +1386,10 @@
 
  ########################################
  CAD_fascism:0 "The Canadian Legion"
- CAD_neutrality:0 "Who's the Colonizer Now?"
+ CAD_neutrality:0 "Reverse Britan"
  CAD_communism:0 "Commune of Canada"
  CAD_democratic:0 "Democratic Funhouse of Canada"
+ CAD_zzaarism:0 "Alizzars Northern Puppet"
  #######################################
  PAA_neutrality:0 "Holy Roman Empire"
  PAA_communism:0 "Austrian SFR"
