@@ -279,3 +279,14 @@ music = {
 		}		
 	}	
 }
+
+music = {
+	song = "ali_only"
+	
+	chance = {
+		modifier = {
+			factor = 2
+			TAG = ALI
+		}		
+	}	
+}
