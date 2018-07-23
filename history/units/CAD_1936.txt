@@ -1,0 +1,253 @@
+division_template = {
+	name = "Canadian Bois"
+
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Tanki Bois"
+
+	division_names_group = GER_Arm_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "RCMP"
+
+	division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+	}
+}
+units = {
+	division= {	
+		name = "RCMP"
+		location = 10552
+		division_template = "RCMP"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "RCMP"
+		location = 10552
+		division_template = "RCMP"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "RCMP"
+		location = 10552
+		division_template = "RCMP"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Tanki Bois"
+		location = 10552
+		division_template = "Tanki Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Tanki Bois"
+		location = 10552
+		division_template = "Tanki Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "RCMP"
+		location = 10552
+		division_template = "RCMP"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "RCMP"
+		location = 10552
+		division_template = "RCMP"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 10552
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 10552
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 10552
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 10552
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 10552
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 10552
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 10552
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 10552
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	#
+	division= {	
+		name = "RCMP"
+		location = 4270
+		division_template = "RCMP"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "RCMP"
+		location = 4270
+		division_template = "RCMP"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "RCMP"
+		location = 4270
+		division_template = "RCMP"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Tanki Bois"
+		location = 4270
+		division_template = "Tanki Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Tanki Bois"
+		location = 4270
+		division_template = "Tanki Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 4270
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 4270
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 4270
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 4270
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 4270
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 4270
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 4270
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 4270
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "RCMP"
+		location = 4270
+		division_template = "RCMP"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "RCMP"
+		location = 4270
+		division_template = "RCMP"
+		start_experience_factor = 0.3
+	}
+	#
+	division= {	
+		name = "Canadian Bois"
+		location = 4861
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Canadian Bois"
+		location = 4861
+		division_template = "Canadian Bois"
+		start_experience_factor = 0.3
+	}
+}
