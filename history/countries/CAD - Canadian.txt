@@ -1,6 +1,6 @@
 ﻿capital = 470
 
-#OOB = "CAD_1936"
+OOB = "CAD_1936"
 
 set_research_slots = 4
 
